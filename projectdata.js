@@ -144,4 +144,5 @@ const projectsData = [
         if (e.key === 'Escape' && modal.classList.contains('active')) {
             closeModal();
         }
+
     });
