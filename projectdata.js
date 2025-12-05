@@ -20,7 +20,7 @@ const projectsData = [
         techStack: "Leaflet, JavaScript, Boostrap, MySQL",
         features: "Peta Interaktif, Pencarian Lokasi, Real-time status updates, Data Korban, Riwayat Data Sensor",
         role: "Full-stack Developer - Bertanggung jawab untuk pengembangan frontend dan backend, serta integrasi ke IoT Hardware",
-        demoLink: "#", // Update with the actual demo link if available
+        demoLink: "Portofolio/webgis/img/portofolio-webgis.png", // Update with the actual demo link if available
         githubLink: "https://github.com/silviaskha/lostawaymonitoring" // Update with the actual GitHub link if available
     },
     {
@@ -32,7 +32,7 @@ const projectsData = [
         techStack: "Kotlin, MySQL",
         features: "Equipment Inventory Tracking, Real-time status updates, Automated reporting system",
         role: "Administrator",
-        demoLink: "#", // Update with the actual demo link if available
+        demoLink: "Portofolio/mobileinventory/img/portofolio-mobile.png", // Update with the actual demo link if available
         githubLink: "#" // Update with the actual GitHub link if available
     },
     {
