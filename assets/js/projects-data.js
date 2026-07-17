@@ -104,7 +104,6 @@ const dataProjects = [
         "NetworkX",
         "Jupyter Notebook"
       ],
-
       features: [
         "Data Cleaning & Preprocessing",
         "Exploratory Data Analysis (EDA)",
