@@ -116,7 +116,7 @@ const dataProjects = [
         "Pattern Discovery Dashboard"
       ],
       role: "Data Scientist",
-      demoLink: "",
+      demoLink: "https://github.com/silviaskha/earthquake-pattern-discoveryEarthquake Pattern Discovery.pdf",
       githubLink:
         "https://github.com/silviaskha/earthquake-pattern-discovery"
     },
