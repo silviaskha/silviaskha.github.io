@@ -1,21 +1,4 @@
-/**
- * PROJECTS DATA
- * =============
- * This is the ONLY file you need to edit to add a new project.
- *
- * HOW TO ADD A NEW PROJECT:
- * 1. Copy one of the objects below (an entire { ... } block).
- * 2. Paste it at the top of the matching category array (webProjects or dataProjects).
- * 3. Change the "id" to a new unique number.
- * 4. Fill in your own title, description, image path, tech stack, etc.
- * 5. Put your project screenshot inside:
- *      assets/images/projects/web/           (for web dev projects)
- *      assets/images/projects/data-science/  (for data/ML projects)
- * 6. Save the file. That's it — no HTML editing required.
- *
- * category must be exactly "web" or "data" — it controls which filter
- * tab / badge color the project appears under.
- */
+
 
 const webProjects = [
   {
@@ -100,8 +83,46 @@ const webProjects = [
 
 const dataProjects = [
   
-  {
-    id: "data-01",
+      {
+      id: "data-01",
+      category: "data",
+      title: "Earthquake Pattern Discovery using Association Rule Mining",
+      shortDescription:
+        "An end-to-end Data Science project that discovers hidden spatial-temporal earthquake patterns across Indonesia using Association Rule Mining (Apriori).",
+      fullDescription:
+        "This project analyzes 91,395 historical earthquake records from BMKG (2009–2022) to discover hidden co-occurrence patterns among 51 seismic regions. Earthquake events are transformed into daily transactions and analyzed using the Apriori algorithm to generate frequent itemsets and association rules. The project includes data preprocessing, exploratory data analysis (EDA), transaction engineering, association rule mining, network visualization, and interpretation of discovered spatial-temporal relationships.",
+      image: "assets/images/projects/data-science/earthquake.png",
+      techStack: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "MLxtend",
+        "Association Rule Mining",
+        "Apriori",
+        "NetworkX",
+        "Jupyter Notebook"
+      ],
+
+      features: [
+        "Data Cleaning & Preprocessing",
+        "Exploratory Data Analysis (EDA)",
+        "Transaction Engineering",
+        "Apriori Frequent Itemset Mining",
+        "Association Rule Generation",
+        "Support, Confidence & Lift Analysis",
+        "Earthquake Association Network Visualization",
+        "Pattern Discovery Dashboard"
+      ],
+      role: "Data Scientist",
+      demoLink: "",
+      githubLink:
+        "https://github.com/silviaskha/earthquake-pattern-discovery"
+    },
+
+    {
+    id: "data-02",
     category: "data",
     title: "Customer Behavior Analysis — Exploratory Data Analysis",
     shortDescription: "Statistical exploration of customer demographics and purchase patterns across 400 records.",
